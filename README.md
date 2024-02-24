@@ -1,8 +1,13 @@
 The Final Logical Schema:
+
   members (alphanumeric_id, phone_num, name, faculty, email_address) 
+  
   books (accession_number, publication_yr, publisher_name, isbn_id, title)
+  
   loan (loan_id, accession_number, borrow_date, return_date, alphanumeric_id) 
+  
   reserve (accession_number, alphanumeric_id, reserve_date) 
+  
   fine_payment_table  (fine_id, alphanumeric_id, payment_date, amount) 
   author_table (author_id, author_name)
   author_book (author_id, accession_number) 
