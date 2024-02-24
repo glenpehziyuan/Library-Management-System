@@ -1,4 +1,4 @@
-The Final Logical Schema: 
+The Final Logical Schema: \n
   members (alphanumeric_id, phone_num, name, faculty, email_address) 
   books (accession_number, publication_yr, publisher_name, isbn_id, title)
   loan (loan_id, accession_number, borrow_date, return_date, alphanumeric_id) 
